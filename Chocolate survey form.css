@@ -1,0 +1,40 @@
+
+h1{
+    color:bisque);
+}
+input{
+    color: blueviolet;
+}
+legend{
+    color:white;
+}
+
+form {
+    color: aliceblue;
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 70%;
+    /* To see the limits of the form */
+    padding: 1em;
+    border: 1px solid rgb(101, 152, 159);
+    border-radius: 1em;
+    background-color: rgba(36, 3, 3, 0.503);
+    text-decoration-color:white;
+    
+}
+fieldset { 
+    border-width: 20px;
+    border:1px solid rgb(101, 175, 184);
+    margin: 10px;
+    border-radius: 1em;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom:30px;
+    padding-left: 30px;
+    
+}
+div{ padding-top: 10px;
+    padding-right: 500px;
+    padding-bottom:10px;
+    padding-left: 500px;
+}

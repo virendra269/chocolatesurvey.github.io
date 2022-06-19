@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><title>Chocolate Survey Form</title></head>
+    <link rel="stylesheet" href="C:\Users\nkmis\OneDrive\Desktop\ruchika\Web development practice\CSS FILEs\Chocolate survey form.css">
+    <style>
+    body{
+      background-image: url('choco bckground1.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      }</style>
+    <body>
+      
+        <h1 align="center">Chocolate Survey</h1>
+        <form > 
+          <fieldset><legend>Personal Information</legend>
+            Name:
+            <input type="text" placeholder="First name" maxlength="20" required >
+            <input type="text" placeholder="Middle name" maxlength="20">
+            <input type="text" placeholder="Last name" maxlength="20" required  ><br>
+            <br>
+            Email:
+            <input type="text" placeholder="Email" >
+            <br><br>
+            Mobile/Phone number:
+            <input type="text" placeholder="Mobile/Phone number" required ><br>
+            <br>
+            Occupation:
+            <input type="text" placeholder="Occupation" required ><br>
+            <br>
+            City:<input type="text" placeholder="City name" ><br><br>
+            Age Group:<br>
+                <input type="radio" name="0-16">0-16<br>
+                <input type="radio" name="17-24"> 17-24<br>
+                <input type="radio" name="25-60"> Others<br><br>
+           Date:
+           <input type="date"><br><br>
+           
+         </fieldset><br>
+         <fieldset ><legend>Favorite Chocolates</legend>
+          Favorite chocolate:
+            <input type="text" placeholder="Choose" list="Chocolates name" autofocus>
+            <datalist id="Chocolates name">
+                <option value="Five star">
+                <option value="dairy milk">
+                <option value="Kit kat">
+                <option value="Kinder">
+                <option value="Hersheys">
+                <option value="Perk">
+                <option value="Galaxy">
+                <option value="ferrero Rocher"> 
+            </datalist>
+           
+            <br><br>
+            <textarea rows="10" cols="100" placeholder="write note">Why do you like about this chocolate...</textarea>
+            <br><br>Reset:
+            <input type="reset"><br><br> 
+        </fieldset>
+             <br>
+             <div> <input type="submit" >
+            </div>
+             </form>
+    </body>
+</html>
